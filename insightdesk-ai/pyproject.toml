@@ -1,0 +1,19 @@
+[project]
+name = "insightdesk-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "eesa-syed", email = "syedeesa2000@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.13.4",
+]
+
+[project.scripts]
+insightdesk-ai = "insightdesk_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
